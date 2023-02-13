@@ -150,7 +150,7 @@ class PolyrhythmSeq(EuroPiScript):
         self.page = 0
         self.param_index = 0
         self.counter = 0
-        self.reset_timeout = 3000
+        self.reset_timeout = 30000
         self._prev_k2 = None
 
         # Assign cv outputs to logical triggers.
